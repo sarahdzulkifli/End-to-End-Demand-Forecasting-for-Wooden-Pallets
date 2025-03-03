@@ -19,4 +19,4 @@ logging.basicConfig(
     ]
 )
 
-logger = logging.getlogger("DemandForecastingLogger")
+logger = logging.getLogger("DemandForecastingLogger")
