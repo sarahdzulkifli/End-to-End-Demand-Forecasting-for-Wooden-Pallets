@@ -6,3 +6,12 @@ data_ingestion:
   source_URL: https://github.com/sarahdzulkifli/Branching-Project/raw/refs/heads/main/DOC-20241224-WA0017..zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+
+
+data_validation:
+  root_dir: artifacts/data_validation
+  unzip_data_dir: artifacts/data_ingestion/DOC-20241224-WA0017..xlsx
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+

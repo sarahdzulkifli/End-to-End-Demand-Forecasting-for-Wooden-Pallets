@@ -1,1 +1,37 @@
-key: val
+COLUMNS:
+  POSTING DATE: datetime64
+  EFFECTIVE DATE: datetime64
+  CREATE DATE: datetime64
+  Customer/ Vendor Code: int64
+  Customer/ Vendor Name: object
+  LOB: object
+  Region: object
+  BP TYPE: object
+  City: object
+  STATE: object
+  From WhsCode: object
+  From WhsName: object
+  To WhsCode: int64
+  To WhsName: object
+  Model Type: object
+  Transfer Type: object
+  U_Frt: float64
+  U_ActShipType: object
+  PRODUCT CATEGORY: object
+  ItemCode: object
+  QUANTITY: int64
+  UNIT: object
+  RATE: int64
+  SO ID: object
+  SO Creation Date: datetime64
+  SO Due Date: datetime64
+  U_DocStatus: object
+  NumAtCard: float64
+  U_SOTYPE: object
+  BP CATEGORY: object
+  Document Type: object
+  Vehicle Type: object
+  Direct Dispatch: object
+
+TARGET_COLUMN:
+  name: QUANTITY
