@@ -1,1 +1,3 @@
-key: val
+XGBoost:
+  MAE: 15.0
+  RMSE: 20.0
