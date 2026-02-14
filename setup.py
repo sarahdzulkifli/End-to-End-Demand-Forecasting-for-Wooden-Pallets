@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="demand-forecasting",
     version="1.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Sarah Dzulkifli",
+    author_email="sarahdzulkifli@gmail.com",
     description="Wooden pallet demand forecasting system",
     packages=find_packages(),
     install_requires=[

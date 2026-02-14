@@ -12,8 +12,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# API URL (update with your deployed API)
-API_URL = "http://localhost:8080"  # Local API endpoint
+# API URL
+API_URL = "http://localhost:8080"  
 
 st.title("🔮 Wooden Pallet Demand Forecasting")
 st.markdown("---")
