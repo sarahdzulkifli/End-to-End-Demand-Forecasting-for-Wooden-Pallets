@@ -24,10 +24,10 @@
 - [Project Structure](#-project-structure)
 - [Model Performance](#-model-performance)
 - [API Documentation](#-api-documentation)
-- [Deployment](#-deployment)
+<!-- - [Deployment](#-deployment)
 - [Development](#-development)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Contributing](#-contributing) -->
+<!-- - [License](#-license) -->
 
 ---
 
@@ -401,7 +401,7 @@ Visit `/docs` for Swagger UI or `/redoc` for ReDoc interface
 
 ---
 
-## 🚢 Deployment
+<!-- ## 🚢 Deployment
 
 ### Render (API)
 
@@ -491,7 +491,7 @@ make clean     # Clean cache files
 2. Inherit from `BaseForecaster`
 3. Implement `fit()`, `predict()`, `forecast_future()`
 4. Add tests in `tests/test_models.py`
-5. Update API to support new model
+5. Update API to support new model -->
 
 ---
 
@@ -524,7 +524,7 @@ make clean     # Clean cache files
 
 ---
 
-## 🤝 Contributing
+<!-- ## 🤝 Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -544,7 +544,7 @@ Please ensure:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
 
 ---
 
