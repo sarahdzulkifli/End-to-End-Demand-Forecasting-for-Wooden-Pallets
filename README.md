@@ -16,18 +16,18 @@
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Tech Stack](#tech-stack)
-- [Quick Start](#quick-start)
-- [Project Structure](#project-structure)
-- [Model Performance](#model-performance)
-- [API Documentation](#api-documentation)
-- [Deployment](#deployment)
-- [Development](#development)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Architecture](#-architecture)
+- [Tech Stack](#️-tech-stack)
+<!-- - [Quick Start](#quick-start) -->
+- [Project Structure](#-project-structure)
+- [Model Performance](#-model-performance)
+- [API Documentation](#-api-documentation)
+- [Deployment](#-deployment)
+- [Development](#-development)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ---
 
@@ -86,31 +86,31 @@ A scalable ML system that:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                    USER INTERFACE LAYER                          │
-│              Streamlit Dashboard (Cloud Hosted)                  │
+│                    USER INTERFACE LAYER                         │
+│              Streamlit Dashboard (Cloud Hosted)                 │
 └─────────────────────────────────────────────────────────────────┘
                               ↓ HTTPS
 ┌─────────────────────────────────────────────────────────────────┐
-│                      API LAYER                                   │
-│          FastAPI REST Service (Render/Railway)                   │
-│          • Request validation (Pydantic)                         │
-│          • Authentication & rate limiting                        │
-│          • Error handling & logging                              │
+│                      API LAYER                                  │
+│          FastAPI REST Service (Render/Railway)                  │
+│          • Request validation (Pydantic)                        │
+│          • Authentication & rate limiting                       │
+│          • Error handling & logging                             │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│                    BUSINESS LOGIC LAYER                          │
-│          • Data preprocessing pipeline                           │
-│          • Feature engineering                                   │
-│          • Model inference                                       │
+│                    BUSINESS LOGIC LAYER                         │
+│          • Data preprocessing pipeline                          │
+│          • Feature engineering                                  │
+│          • Model inference                                      │
 └─────────────────────────────────────────────────────────────────┘
                               ↓
 ┌─────────────────────────────────────────────────────────────────┐
-│                     MODEL LAYER                                  │
-│          Trained Models (Hugging Face Hub)                       │
-│          • XGBoost (primary)                                     │
-│          • Prophet (backup)                                      │
-│          • Model metadata & versioning                           │
+│                     MODEL LAYER                                 │
+│          Trained Models (Hugging Face Hub)                      │
+│          • XGBoost (primary)                                    │
+│          • Prophet (backup)                                     │
+│          • Model metadata & versioning                          │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -157,7 +157,7 @@ A scalable ML system that:
 
 ---
 
-## 🚀 Quick Start
+<!-- ## 🚀 Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -207,7 +207,7 @@ Visit: http://localhost:8501
 docker build -t demand-forecasting-api .
 
 # Run the container
-docker run -p 8000:8000 demand-forecasting-api
+docker run -p 8000:8000 demand-forecasting-api -->
 ```
 
 ---
@@ -550,10 +550,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- LinkedIn: [your-profile](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+**Sarah Dzulkifli**
+- LinkedIn: [your-profile](https://linkedin.com/in/sarahdzulkifli)
+- GitHub: [@sarahdzulkifli](https://github.com/sarahdzulkifli)
+- Email: sarahdzulkifli@gmail.com
 
 ---
 
