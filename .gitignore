@@ -243,3 +243,6 @@ Thumbs.db
 tmp/
 temp/
 *.tmp
+
+DEPLOYMENT.md
+setup.ps1

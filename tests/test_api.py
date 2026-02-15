@@ -38,16 +38,11 @@ class TestAPIEndpoints:
     def test_predict_endpoint_with_valid_data(self):
         """Test predict endpoint with valid prediction request."""
         request_data = {
-            "features": {
-                "lag_1": 100,
-                "lag_2": 95,
-                "rolling_mean_3": 98,
-                "posting_month": 5,
-                "rate": 12.5,
-                "u_frt": 500,
-                "posting_quarter": 2,
-                "lead_time": 7
-            }
+            "periods": 6,
+            "last_quantity": 100,
+            "current_month": 5,
+            "rate": 12.5,
+            "freight_cost": 500
         }
         
         response = client.post("/predict", json=request_data)

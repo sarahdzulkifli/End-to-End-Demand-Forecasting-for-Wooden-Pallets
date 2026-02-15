@@ -68,10 +68,12 @@ class TestXGBoostForecaster:
         
         metrics = self.forecaster.fit(df, test_size=0.2)
         
-        assert 'rmse' in metrics
-        assert 'mae' in metrics
-        assert 'r2' in metrics
-        assert metrics['rmse'] >= 0
+        assert 'train' in metrics
+        assert 'test' in metrics
+        assert 'rmse' in metrics['test']
+        assert 'mae' in metrics['test']
+        assert 'r2' in metrics['test']
+        assert metrics['test']['rmse'] >= 0
         
     def test_predict_returns_predictions(self):
         """Test that predict returns predictions."""
