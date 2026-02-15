@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # API URL
-API_URL = "http://localhost:8080"  
+API_URL = st.secrets.get("API_URL", "http://localhost:8080")  
 
 st.title("🔮 Wooden Pallet Demand Forecasting")
 st.markdown("---")
